@@ -212,6 +212,15 @@ python -m src.backtest    # 运行回测
 
 可选提速：在仓库 Secrets 配置 `ZZSHARE_TOKEN`（在 [zzshare 官网](https://quant.zizizaizai.com)免费获取），提升接口访问频率上限。
 
+### 飞书推送
+
+每日工作流会在选股和回测完成后，将 `output/latest.json` 中的次日候选池发送到飞书自定义机器人。请在仓库 **Settings → Secrets and variables → Actions** 中新增：
+
+- `FEISHU_WEBHOOK_URL`：飞书自定义机器人的 webhook 地址；
+- `FEISHU_WEBHOOK_SECRET`：如果机器人开启签名校验则填写，否则可留空。
+
+Webhook 只通过 GitHub Secret 注入运行环境，不写入代码、日志或提交记录。未配置 URL 时工作流会跳过推送，不影响选股和 Pages 部署。
+
 ## 八、目录结构
 
 ```
