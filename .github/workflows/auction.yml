@@ -35,6 +35,12 @@ jobs:
       - name: 竞价确认(9:25竞价数据自动判定)
         run: python tools/auction_confirm.py
 
+      - name: 推送飞书竞价确认
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
+        run: python tools/send_feishu.py --mode auction
+
       - name: 提交确认结果
         run: |
           git config user.name "github-actions[bot]"
