@@ -77,6 +77,13 @@ jobs:
           TZ: Asia/Shanghai
         run: python tools/make_health.py
 
+      - name: 推送飞书每日选股清单
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
+        run: python tools/send_feishu.py
+
       - name: 提交更新记录(中文留痕)
         if: steps.guard.outputs.skip != 'true'
         run: |
