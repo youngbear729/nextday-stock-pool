@@ -52,6 +52,12 @@ jobs:
             python -m src.backtest
           fi
 
+      - name: 推送飞书策略回测
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
+        run: python tools/send_feishu.py --mode backtest
+
       - name: 提交回测报告(中文留痕)
         run: |
           git config user.name "github-actions[bot]"
