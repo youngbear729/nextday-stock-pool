@@ -78,7 +78,7 @@ jobs:
         run: python tools/make_health.py
 
       - name: 推送飞书每日选股清单
-        if: steps.guard.outputs.skip != 'true'
+        if: github.event_name == 'schedule' && steps.guard.outputs.skip != 'true'
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
