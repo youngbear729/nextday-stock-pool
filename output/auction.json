@@ -1,35 +1,41 @@
 {
- "confirm_time": "2026-10-28 15:09:13",
- "buy_date": "2026-10-28",
- "signal_date": "2026-10-27",
+ "confirm_time": "2026-10-30 15:17:55",
+ "buy_date": "2026-10-30",
+ "signal_date": "2026-10-29",
  "for_today": true,
  "allow_buy": true,
  "floor_pct": -2.75,
  "position_pct": 100.0,
  "data_ok": true,
- "action": "skip",
- "name": "",
- "code": "",
- "rank": null,
- "open_px": null,
- "gap_pct": null,
- "chain": [
-  "第1名 新华文轩: 缺口-0.11%未达承接线-2.75% → 顺延",
-  "第2名 奥佳华: 缺口-0.52%未达承接线-2.75% → 顺延",
-  "第3名 上工申贝: 缺口0.00%未达承接线-2.75% → 顺延",
-  "第4名 惠泉啤酒: 缺口-0.25%未达承接线-2.75% → 顺延",
-  "第5名 正强股份: 缺口-1.78%未达承接线-2.75% → 顺延"
+ "action": "buy",
+ "name": "领湃科技",
+ "code": "300530.SZ",
+ "rank": 1,
+ "open_px": 21.42,
+ "gap_pct": -3.99,
+ "chain": [],
+ "note": "确认买入第1名 领湃科技(300530.SZ), 竞价缺口-3.99%, 开盘价21.42, 仓位100.0%",
+ "sell_today": [
+  {
+   "code": "002811.SZ",
+   "name": "郑中设计",
+   "buy_date": "2026-10-29",
+   "buy_px": 17.45,
+   "sell_date": "2026-10-30",
+   "open_px": 15.55,
+   "est_ret_pct": -11.16,
+   "limit_down": true
+  }
  ],
- "note": "全部候选未达标 → 今日空仓",
  "positions": [
   {
    "code": "002811.SZ",
    "name": "郑中设计",
    "buy_px": 17.45,
    "buy_date": "2026-10-29",
-   "cur_px": 17.28,
-   "float_pct": -0.97
+   "cur_px": 15.55,
+   "float_pct": -10.89
   }
  ],
- "positions_time": "2026-10-30 00:35:57"
+ "positions_time": "2026-10-30 15:17:55"
 }
