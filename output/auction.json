@@ -1,41 +1,29 @@
 {
- "confirm_time": "2026-10-30 15:39:00",
+ "confirm_time": "2026-11-02 15:46:28",
  "buy_date": "2026-10-30",
  "signal_date": "2026-10-29",
- "for_today": true,
+ "for_today": false,
  "allow_buy": true,
  "floor_pct": -2.75,
  "position_pct": 100.0,
  "data_ok": true,
- "action": "buy",
- "name": "领湃科技",
- "code": "300530.SZ",
- "rank": 1,
- "open_px": 21.42,
- "gap_pct": -3.99,
+ "action": "skip",
+ "name": "",
+ "code": "",
+ "rank": null,
+ "open_px": null,
+ "gap_pct": null,
  "chain": [],
- "note": "确认买入第1名 领湃科技(300530.SZ), 竞价缺口-3.99%, 开盘价21.42, 仓位100.0%",
- "sell_today": [
-  {
-   "code": "002811.SZ",
-   "name": "郑中设计",
-   "buy_date": "2026-10-29",
-   "buy_px": 17.45,
-   "sell_date": "2026-10-30",
-   "open_px": 15.55,
-   "est_ret_pct": -11.16,
-   "limit_down": true
-  }
- ],
+ "note": "今日(20261102)非计划买入日(计划买入日2026-10-30), 无需竞价确认",
  "positions": [
   {
    "code": "002811.SZ",
    "name": "郑中设计",
    "buy_px": 17.45,
    "buy_date": "2026-10-29",
-   "cur_px": 15.55,
-   "float_pct": -10.89
+   "cur_px": 17.11,
+   "float_pct": -1.95
   }
  ],
- "positions_time": "2026-10-30 15:39:00"
+ "positions_time": "2026-11-02 15:46:28"
 }
