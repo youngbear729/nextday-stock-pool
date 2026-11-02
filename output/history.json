@@ -6,6 +6,14 @@
  },
  "records": [
   {
+   "publish_date": "2026-11-02",
+   "buy_date": "2026-11-03",
+   "sell_date": "2026-11-04",
+   "regime_ok": false,
+   "picks": [],
+   "status": "待结算"
+  },
+  {
    "publish_date": "2026-10-29",
    "buy_date": "2026-10-30",
    "sell_date": "2026-11-02",
@@ -47,7 +55,29 @@
      "reasons": "回调-5.2%、量比0.88(缩量)、20日动量6%、乖离-2.8%、换手8.1%、次日竞价深低开承接"
     }
    ],
-   "status": "待结算"
+   "status": "已结算",
+   "realized": {
+    "buy_date": "2026-10-30",
+    "sell_date": "2026-11-02",
+    "n_traded": 1,
+    "n_skipped": 0,
+    "avg_ret_pct": 1.47,
+    "win": 1
+   },
+   "executed": {
+    "rank": 1,
+    "code": "300530.SZ",
+    "name": "领湃科技",
+    "buy_date": "2026-10-30",
+    "buy_px": 21.42,
+    "sell_date": "2026-11-02",
+    "sell_px": 21.8,
+    "ret_pct": 1.47,
+    "position_pct": 100.0,
+    "gap_pct": -3.99,
+    "chain": []
+   },
+   "skipped_codes": []
   },
   {
    "publish_date": "2026-10-28",
@@ -77,7 +107,7 @@
      "reasons": "回调-5.5%、量比2.07(缩量)、20日动量8%、乖离4.9%、换手5.5%、次日竞价深低开承接"
     }
    ],
-   "status": "持仓中",
+   "status": "已结算",
    "executed": {
     "rank": 2,
     "code": "002811.SZ",
@@ -85,16 +115,26 @@
     "buy_date": "2026-10-29",
     "buy_px": 17.45,
     "sell_date": "2026-10-30",
-    "sell_px": null,
-    "ret_pct": null,
+    "sell_px": 15.55,
+    "ret_pct": -11.16,
     "position_pct": 100.0,
     "gap_pct": -9.11,
     "chain": [
      "第1名 昆船智能: 缺口-2.4%未达承接线-2.75%"
     ],
-    "holding": true
+    "sell_note": "开盘跌停按收盘"
    },
-   "skipped_codes": []
+   "skipped_codes": [
+    "301311.SZ"
+   ],
+   "realized": {
+    "buy_date": "2026-10-29",
+    "sell_date": "2026-10-30",
+    "n_traded": 1,
+    "n_skipped": 1,
+    "avg_ret_pct": -11.16,
+    "win": 0
+   }
   },
   {
    "publish_date": "2026-10-27",
@@ -219,7 +259,10 @@
    "regime_ok": false,
    "picks": [],
    "status": "无成交",
-   "skipped_codes": []
+   "skipped_codes": [],
+   "skip_chain": [
+    "大盘风控空仓"
+   ]
   },
   {
    "publish_date": "2026-10-22",

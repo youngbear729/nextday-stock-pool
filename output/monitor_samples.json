@@ -6,8 +6,22 @@
    "code": "300192.SZ",
    "name": "科德教育",
    "ret_pct": -0.4
+  },
+  {
+   "publish_date": "2026-10-28",
+   "sell_date": "2026-10-30",
+   "code": "002811.SZ",
+   "name": "郑中设计",
+   "ret_pct": -11.16
+  },
+  {
+   "publish_date": "2026-10-29",
+   "sell_date": "2026-11-02",
+   "code": "300530.SZ",
+   "name": "领湃科技",
+   "ret_pct": 1.47
   }
  ],
  "blocked": [],
- "updated": "2026-10-29"
+ "updated": "2026-11-02"
 }
