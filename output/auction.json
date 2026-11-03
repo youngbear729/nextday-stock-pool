@@ -1,8 +1,8 @@
 {
- "confirm_time": "2026-11-02 16:04:45",
- "buy_date": "2026-10-30",
- "signal_date": "2026-10-29",
- "for_today": false,
+ "confirm_time": "2026-11-03 16:00:44",
+ "buy_date": "2026-11-03",
+ "signal_date": "2026-11-02",
+ "for_today": true,
  "allow_buy": true,
  "floor_pct": -2.75,
  "position_pct": 100.0,
@@ -14,7 +14,5 @@
  "open_px": null,
  "gap_pct": null,
  "chain": [],
- "note": "今日(20261102)非计划买入日(计划买入日2026-10-30), 无需竞价确认",
- "positions": [],
- "positions_time": "2026-11-03 03:57:57"
+ "note": "空池日(无合格候选) → 今日空仓"
 }
