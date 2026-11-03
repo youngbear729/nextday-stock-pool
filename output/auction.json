@@ -14,5 +14,7 @@
  "open_px": null,
  "gap_pct": null,
  "chain": [],
- "note": "空池日(无合格候选) → 今日空仓"
+ "note": "空池日(无合格候选) → 今日空仓",
+ "positions": [],
+ "positions_time": "2026-11-04 01:32:58"
 }
